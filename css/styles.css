@@ -1,0 +1,157 @@
+
+
+/* ================== HEADER ==================*/
+.logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.logo_left-side{
+        color: #2196F3;
+}
+
+.navigation_list{
+    display: flex;
+}
+
+.navigation_list-links{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    margin-right:
+
+}
+
+.navigation_list-links:hover,
+.navigation_list-link:focus{
+    color: #2196F3;;
+    cursor: pointer;
+}
+
+.address_list-link-items{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.address_list-link-items:hover,
+.address_list-link-items:focus{
+        color: #2196F3;
+}
+/* ================== END HEADER ==================*/
+
+/* ================== HERO ==================*/
+.hero_title{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        /* color: #FFFFFF; */
+}
+/* ================== END HERO ==================*/
+
+/* ================== COMPONENTS ==================*/
+.btn{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;    
+    color: #FFFFFF;
+    background-color: #2196F3;
+    border-radius: 4px;
+    padding: 10px 32px;
+    border-color: #2196F3;
+}
+
+/* ================== END COMPONENTS ==================*/
+
+
+/* ================== PECULIARITIES ==================*/
+.peculiarities_title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.peculiarities_undertitle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* ================== END PECULIARITIES ==================*/
+
+/* ================== ABOUT ==================*/
+.about_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.about_img {
+    display: flex;
+}
+
+/* ================== END ABOUT ==================*/
+
+
+.comand{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.masters_list_links_names{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #212121;
+}
+
+.masters_list_links_position{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.masters_list{
+    display: flex;
+}
