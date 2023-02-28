@@ -1,6 +1,19 @@
 
 
 /* ================== HEADER ==================*/
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.header .logo{
+    margin-right: 95px;
+}
+
+.header .address {
+    margin-left: auto;
+}
+
 .logo{
     font-family: 'Raleway';
     font-style: normal;
@@ -17,6 +30,12 @@
 
 .navigation_list{
     display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.navigation_list-links:not(:last-child) {
+    margin-right: 50px;
 }
 
 .navigation_list-links{
@@ -27,7 +46,6 @@
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
-    margin-right:
 
 }
 
@@ -35,6 +53,11 @@
 .navigation_list-link:focus{
     color: #2196F3;;
     cursor: pointer;
+}
+
+.address_list{
+    display: flex;
+    align-items: center;
 }
 
 .address_list-link-items{
@@ -77,6 +100,38 @@
     padding: 10px 32px;
     border-color: #2196F3;
 }
+
+.list{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
 
 /* ================== END COMPONENTS ==================*/
 
