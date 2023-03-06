@@ -3,15 +3,16 @@
 /* ================== HEADER ==================*/
 .header{
     display: flex;
-    align-items: center;
+    align-items:center;
+    height: 80px;
 }
 
 .header .logo{
     margin-right: 95px;
 }
 
-.header .address {
-    margin-left: auto;
+.header {
+    justify-content: space-between;
 }
 
 .logo{
@@ -55,9 +56,17 @@
     cursor: pointer;
 }
 
+.address{
+    margin-left: auto;
+}
+
 .address_list{
     display: flex;
     align-items: center;
+}
+
+.address_list-link:not(:last-child){
+    margin-right: 50px;
 }
 
 .address_list-link-items{
@@ -83,7 +92,17 @@
         font-weight: 900;
         font-size: 44px;
         line-height: 60px;
-        /* color: #FFFFFF; */
+        color: #FFFFFF;
+        margin-bottom: 30px;
+        padding-top: 200px;
+    }
+
+.hero{
+        /* width: 1600px; */
+        height: 600px;
+        margin: 0 auto;
+        background: #2F303A;
+        text-align: center;
 }
 /* ================== END HERO ==================*/
 
@@ -132,11 +151,25 @@ img {
     display: block;
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
 
 /* ================== END COMPONENTS ==================*/
 
 
 /* ================== PECULIARITIES ==================*/
+
+.peculiarities{
+    padding-top: 95px;
+}
+
+.peculiarities_list{
+    display: flex;
+}
+
+
 .peculiarities_title{
     font-family: 'Roboto';
     font-style: normal;
@@ -146,6 +179,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
+    margin-bottom: 10px;
 }
 
 .peculiarities_undertitle{
@@ -158,9 +192,23 @@ img {
     color: #757575;
 }
 
+.peculiarities_list-items:not(:last-child){
+    margin-left: 30px;
+}
+
+.peculiarities_list-items{
+        width: 270px;
+}
+
 /* ================== END PECULIARITIES ==================*/
 
 /* ================== ABOUT ==================*/
+
+.about{
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+
 .about_title {
     font-family: 'Roboto';
     font-style: normal;
@@ -169,16 +217,27 @@ img {
     line-height: 42px;
     letter-spacing: 0.03em;
     color: #212121;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .about_img {
     display: flex;
+    justify-content: space-between;
 }
 
 /* ================== END ABOUT ==================*/
 
+/* ================== MASTERS ==================*/
+.masters_box{
+    padding-top: 95px;
+}
 
-.comand{
+.masters{
+    margin-top: 50px;
+}
+ 
+.comand {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -186,18 +245,32 @@ img {
     line-height: 42px;
     letter-spacing: 0.03em;
     color: #212121;
+    text-align: center;
 }
 
-.masters_list_links_names{
+.masters_list_links{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 6px 6px;
+}
+
+.masters_list_links:not(:last-child){
+    margin-right: 30px;
+}
+
+.masters_list_links_names {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     color: #212121;
+    padding-top: 30px;
+    padding-right: 60px;
+    padding-left: 60px;
 }
 
-.masters_list_links_position{
+.masters_list_links_position {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -205,8 +278,37 @@ img {
     line-height: 19px;
     letter-spacing: 0.03em;
     color: #757575;
+    padding-top: 10px;
+    padding-bottom: 30px;
+        text-align: center;
 }
 
-.masters_list{
+.masters_list {
     display: flex;
 }
+/* ================== END MASTERS ==================*/
+
+
+/* ================== FOOTER ==================*/
+.footer {
+    background: #2F303A;
+    justify-content: space-between;
+    margin-top: 95px;
+}
+
+.footer .logo {
+    color: #FFFFFF;
+    padding-top: 60px;
+}
+
+.contacts_list {
+    padding-bottom: auto;
+    margin-top: 20px;
+}
+
+.footer_box {
+    padding-left: 215px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+/* ================== END FOOTER ==================*/
